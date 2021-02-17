@@ -33,3 +33,8 @@ li {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:rgb(202, 119, 41)
   }
+
+  label {
+    font-weight: 200;
+    font-size: medium;
+  }
