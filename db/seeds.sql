@@ -1,6 +1,6 @@
-INSERT INTO burgers (name) VALUES ('Molly');
-INSERT INTO burgers (name) VALUES ('Charlie');
-INSERT INTO burgers (name, sleepy) VALUES ('Poppy', true);
-INSERT INTO burgers (name, sleepy) VALUES ('Oscar', true);
-INSERT INTO burgers (name, sleepy) VALUES ('Smudge', true);
-INSERT INTO burgers (name) VALUES ('Daisy');
+INSERT INTO burgers (name) VALUES ('BlackBeanBurger');
+INSERT INTO burgers (name) VALUES ('Pan con Bistec');
+INSERT INTO burgers (name, eatLater) VALUES ('BLT', true);
+INSERT INTO burgers (name, eatLater) VALUES ('Beef Burger', true);
+INSERT INTO burgers (name, eatLater) VALUES ('Veggie Burger', true);
+INSERT INTO burgers (name) VALUES ('Pizza');

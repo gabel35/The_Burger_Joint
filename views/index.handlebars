@@ -1,0 +1,41 @@
+<h1>The Burger Joint!</h1>
+
+<h2>May I take your order?</h2>
+<form id="create-form">
+
+  <div class="form-group">
+    <label for="burgerName">Burger Name:</label>
+    <input type="text" id="burgerName" name="name">
+  </div>
+
+  <div class="form-group">
+    <label for="eatLater">eatLater?</label><br>
+    <input type="radio" name="eatLater" value="1" id="eatLater" checked> Eat Later!<br>
+    <input type="radio" name="eatLater" value="0" id="eatNow"> Eat it!
+  </div>
+
+  <button type="submit">Order</button>
+</form>
+
+<h2>Burgers to be eaten:</h2>
+
+<ul>
+  {{#each burgers}}
+  {{#if eatLater}}
+  {{> burgers/burger-block eatNow=false}}
+  {{/if}}
+  {{/each}}
+</ul>
+
+<h2>Eaten burgers:</h2>
+
+<ul>
+  {{#each burgers}}
+  {{#unless eatLater}}
+  {{> burgers/burger-block eatNow=true}}
+  {{/unless}}
+  {{/each}}
+</ul>
+
+
+
