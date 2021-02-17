@@ -1,7 +1,7 @@
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: rgba(255, 198, 133, 0.753);
   }
   
   .label {
@@ -23,7 +23,7 @@ li {
   }
 
   #orderCounter {
-    background-color: rgb(176, 179, 169);
+    background-color: rgba(197, 102, 38, 0.897);
     align-content: center;
     text-align: center;
   }
