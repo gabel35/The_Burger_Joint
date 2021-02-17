@@ -5,5 +5,7 @@
 		{{#if eatNow}}Order Another!{{else}}Eat it now{{/if}}
 	</button>
 
-	<button class="eaten-burger" data-id="{{this.id}}">Throw it in the Trash</button>
+	<button class="eaten-burger" data-id="{{this.id}}">
+		{{#if eatNow}}Throw trash out{{else}}Throw it in the Trash{{/if}}
+	</button>
 </li>

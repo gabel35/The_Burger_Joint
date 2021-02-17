@@ -38,3 +38,15 @@ li {
     font-weight: 200;
     font-size: medium;
   }
+
+  .eaten-burger {
+    background-color: rgb(195, 65, 26);
+    border: none;
+    color: rgb(255, 212, 133);
+  }
+
+  .change-eatNow {
+    background-color: rgb(255, 243, 133);
+    border: none;
+    color: rgb(195, 65, 26);
+  }
