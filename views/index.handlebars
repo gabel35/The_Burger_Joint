@@ -1,21 +1,23 @@
 <h1>The Burger Joint!</h1>
 
-<h2>May I take your order?</h2>
-<form id="create-form">
+<div id="orderCounter">
+  <h2>May I take your order?</h2>
+  <form id="create-form">
 
-  <div class="form-group">
-    <label for="burgerName">Burger Name:</label>
-    <input type="text" id="burgerName" name="name">
-  </div>
+    <div class="form-group">
+      <label for="burgerName">Burger Name:</label>
+      <input type="text" id="burgerName" name="name">
+    </div>
 
-  <div class="form-group">
-    <label for="eatLater">eatLater?</label><br>
-    <input type="radio" name="eatLater" value="1" id="eatLater" checked> Eat Later!<br>
-    <input type="radio" name="eatLater" value="0" id="eatNow"> Eat it!
-  </div>
-
-  <button type="submit">Order</button>
-</form>
+    <div class="form-group">
+      <label for="eatLater">Order for now or for later?</label><br>
+      <input type="radio" name="eatLater" value="1" id="eatLater" checked> Eat it later<br>
+      <input type="radio" name="eatLater" value="0" id="eatNow"> Eat it now
+    </div>
+    
+    <button type="submit">Order</button>
+  </form>
+</div>
 
 <h2>Burgers to be eaten:</h2>
 

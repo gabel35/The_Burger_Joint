@@ -21,3 +21,14 @@ li {
   body {
     background-color: rgb(255, 212, 133);
   }
+
+  #orderCounter {
+    background-color: rgb(176, 179, 169);
+    align-content: center;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(202, 119, 41)
+  }
