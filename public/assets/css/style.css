@@ -25,6 +25,7 @@ li {
   #orderCounter {
     background-color: rgb(176, 179, 169);
     align-content: center;
+    text-align: center;
   }
 
   h1 {
