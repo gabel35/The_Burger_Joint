@@ -45,8 +45,11 @@ li {
     color: rgb(255, 212, 133);
   }
 
-  .change-eatNow {
+  .change-eatNow, #orderIt {
     background-color: rgb(255, 243, 133);
     border: none;
     color: rgb(195, 65, 26);
+    margin: 5px;
+    font-weight: bolder;
   }
+  
